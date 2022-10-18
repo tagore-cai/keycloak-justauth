@@ -1,8 +1,8 @@
-ARG keycloak_image=16.1.1
+ARG keycloak_image=18.0.2
 
 FROM quay.io/keycloak/keycloak:${keycloak_image}
 
-ARG keycloak_version=16.1.1
+ARG keycloak_version=18.0.2
 
 ## copy temp
 COPY temp/* /opt/jboss/keycloak/themes/base/admin/resources/partials/
